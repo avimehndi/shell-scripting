@@ -26,7 +26,6 @@ def lambda_handler(event, context):
     #    InvocationType='Event',
     #    Payload=json.dumps({'bucket_name': bucket_name, 'object_key': object_key})
     # )
-
     return {
         'statusCode': 200,
         'body': json.dumps('Lambda function executed successfully')
